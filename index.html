@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COTE.dle</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+    <body>
+        <label for="search">Choisir une personne :</label>
+        <div class="dropdown">
+            <button id="toggleBtn" class="button">Choisir</button>
+            
+            <div id="menu" class="dropdown-content">
+                <input type="text" id="search" placeholder="Rechercher un nom...">
+                <select id="liste" size="10"></select>
+            </div>
+        </div>
+
+        <a class = "button"></a>
+        <ul class= "valeur" id="currentCharacters">
+            <li id ="name">Name</li>
+            <li id ="genre">Genre</li>
+            <li id ="age">Age</li>
+            <li id ="classe">Classe</li>
+            <li id ="annee">Annee</li>
+            <li id ="statut">Statut</li>
+            <li id ="importance_classe">Importance classe</li>
+            <li id ="intelligence">Intelligence</li>
+            <li id ="capa_physique">capacité physique</li>
+            <li id ="arc_apparition">Arc apparition</li>
+        </ul>
+        <ul class= "valeur" id="formerCharacters"></ul>
+    </body>
+    <script src="index.js"></script>
+</html>
